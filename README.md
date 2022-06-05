@@ -34,7 +34,9 @@ POST  http://localhost/api/v1/auth/signup/
     "username": "tester1"
 }
 ```
-<span style="color:green"><b>Response status 200 OK</b></span>
+```diff
++ Response status 200 OK
+```
 ```json
 {
     "username": "tester1",
@@ -59,7 +61,7 @@ POST  http://localhost/api/v1/auth/token/
     "confirmation_code": "61b-18466437bce..."
 }
 ```
-<span style="color:green"><b>Response status 200 OK</b></span>
+![#c5f015](https://via.placeholder.com/15/00FF00/000000?text=+) Response status 200 OK
 ```json
 {
     "token": "eyJ0e..........."
